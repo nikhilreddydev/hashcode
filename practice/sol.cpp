@@ -42,5 +42,8 @@ int main()
 
     printf("Maximum ingredients: %d are in pizza num %d.", max, line);
     
+    //algorithm comes down here
+    //should complete it by 20th
+    
     return 0;
 }
