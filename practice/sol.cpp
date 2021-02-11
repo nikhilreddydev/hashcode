@@ -10,7 +10,7 @@ class pizza
     vector <string> ingredients; //all the ingredients of pizza
 };
 
-main()
+int main()
 {
     int n; //number of pizzas
     int ingrm; //tmp variable to store num of ingr in each pizza
@@ -41,4 +41,6 @@ main()
     }
 
     printf("Maximum ingredients: %d are in pizza num %d.", max, line);
+    
+    return 0;
 }
